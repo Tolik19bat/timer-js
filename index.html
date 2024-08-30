@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер обратного отсчёта</title>
+    <script src="task.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #timer {
+            font-size: 48px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Элемент для отображения таймера -->
+    <div id="timer"></div>
+
+    <!-- Подключение скрипта с таймером -->
+    <script>
+        // let timerStarted = false;
+
+        // function Time() {
+        //     if (timerStarted) return; // Если таймер уже запущен, выходим из функции
+        //     timerStarted = true; // Помечаем, что таймер запущен
+
+        //     console.log('Функция Time() запущена');
+        //     let time = 40;
+        //     document.getElementById('timer').innerText = time;
+
+        //     let interval = setInterval(function() {
+        //         time -= 1;
+        //         document.getElementById('timer').innerText = time;
+
+        //         if (time <= 0) {
+        //             clearInterval(interval);
+        //             alert("Вы победили в конкурсе!");
+        //             timerStarted = false; // Таймер завершен, можно запускать снова, если нужно
+        //         }
+        //     }, 1000);
+        // }
+
+        // Time(); // Вызов функции
+
+//         function Time() {
+//     let time = Number(document.getElementById("timer").innerText);
+//     let interval = setInterval(function() {
+//         time -= 1;
+//         document.getElementById("timer").innerText = time;
+//         console.log(time);
+//         if (time <= 0) {
+//             clearInterval(interval);
+//             alert("Вы победили в конкурсе!");
+//         }
+//     }, 1000);
+// }
+
+// Time();
+
+    </script>
+</body>
+</html>
